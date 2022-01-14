@@ -1,7 +1,7 @@
 
 import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from "@react-navigation/native";
-import Images from './image';
+import Images from "./stories/image";
 import whatsapp from "./stories/whatsappStatus";
 import React from "react";
 
@@ -23,7 +23,8 @@ function MyStack(){
           </Stack.Screen>
           <Stack.Screen
           name='Images'
-          component={Images}>
+          component={Images}
+          options={{headerShown:false}}>
 
        </Stack.Screen>
           

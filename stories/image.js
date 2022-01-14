@@ -9,10 +9,17 @@ import{
 //
 
 export default class Images extends Component{
+    constructor(props){
+        super(props);
+        
+    }
+
     render(){
+        const { imagePath } = this.props.route.params;
+
         return(
             <View style={styles.container}>
-                <ImageBackground source={require('./src/nature1.jpg')}
+                <ImageBackground source={imagePath}
                 style={{height:'100%',
                 width:'100%'}}></ImageBackground>
 
