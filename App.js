@@ -27,6 +27,8 @@ function MyStack(){
           options={{headerShown:false}}>
 
 
+
+
        </Stack.Screen>
           
       </Stack.Navigator>
