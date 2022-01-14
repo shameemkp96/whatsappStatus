@@ -26,6 +26,7 @@ function MyStack(){
           component={Images}
           options={{headerShown:false}}>
 
+
        </Stack.Screen>
           
       </Stack.Navigator>
